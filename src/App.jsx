@@ -1,10 +1,10 @@
 import React from "react";
 import Navbar from "./components/Navbar.jsx";
-import ProductList from "./pages/Productlist.jsx";
+import ProductList from "./pages/ProductList";
 import Cart from "./pages/Cart.jsx";
 import Checkout from "./pages/Checkout.jsx";
 import ProductDetail from "./pages/ProductDetail.jsx";
-import Footer from "./components/footer.jsx";
+import Footer from "./components/Footer";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
